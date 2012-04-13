@@ -1,38 +1,40 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="modify the project!">
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\archive\interviewstreet\KingXMagicSpells.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\ImportantSequence.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\RandomColoring.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Connect_the_country$Uset.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Connect_the_country.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Connect_the_countryChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\DCEPC206.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\DCEPC206Checker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Going_Office$1.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Going_Office.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\Going_OfficeChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\ImportantSequence.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\RandomColoring.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\acm.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\DailyContest\my\mypackage\acmChecker.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\Arrays\ArrayUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\common\Pair.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\common\ReverseComparator.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\graph\GraphUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\graph\graph.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\io\IOUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\numbers\IntegerUtils.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\numbers\Rational.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\out\production\utils\net\kingder\utils\strings\StringUtils.class" afterPath="" />
-      <change type="MOVED" beforePath="C:\Users\Kingder\Desktop\DailyContest\topcoder\RandomColoring.java" afterPath="$PROJECT_DIR$/archive/unsorted/RandomColoring.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/encodings.xml" afterPath="$PROJECT_DIR$/.idea/encodings.xml" />
+    <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/Generate_test.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/Main.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/MyInputReader.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/MyOutputWriter.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/Arrays/ArrayUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/common/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/common/ReverseComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/GraphUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/io/IOUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/io/MyInputReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/io/MyOutputWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/IntegerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/Rational.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/strings/StringUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/DailyContest.iml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/in.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/Connect_the_country.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/Connect_the_countryChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/DCEPC206.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/DCEPC206Checker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/Going_Office.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/Going_OfficeChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/ImportantSequence.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/Task.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/TaskChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/acm.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/main/my/mypackage/acmChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Main.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyOutputWriter.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/Archive.iml" afterPath="$PROJECT_DIR$/archive/Archive.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/codeforces/Codeforces.iml" afterPath="$PROJECT_DIR$/archive/codeforces/Codeforces.iml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/Main.iml" afterPath="$PROJECT_DIR$/main/Main.iml" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -607,7 +609,11 @@
       <created>1334315247747</created>
       <updated>1334315247747</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="modify the project!">
+      <created>1334316285011</created>
+      <updated>1334316285011</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
