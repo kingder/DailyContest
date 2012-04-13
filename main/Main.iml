@@ -16,6 +16,8 @@
         <SOURCES />
       </library>
     </orderEntry>
+    <orderEntry type="module" module-name="Utils" exported="" />
+    <orderEntry type="module" module-name="Lib" exported="" />
   </component>
 </module>
 

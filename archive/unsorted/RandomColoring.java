@@ -1,10 +1,13 @@
+/*
+ * Copyright (c) 2012.
+ */
+
+package my.mypackage;
+
+// Paste me into the FileEdit configuration dialog
+
 import java.util.Arrays;
 
-/**
- * Built using CHelper plug-in
- * Actual solution is at the top
- * @author lwc626
- */
 public class RandomColoring {
    int mb , mg , mr ;
    public double getProbability(int N, int maxR, int maxG, int maxB, int startR, int startG, int startB, int d1, int d2) {

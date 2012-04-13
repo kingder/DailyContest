@@ -5,6 +5,7 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/round1" isTestSource="false" packagePrefix="my.mypackage" />
       <sourceFolder url="file://$MODULE_DIR$/VK Cup 2012 Qualification Round 2" isTestSource="false" packagePrefix="my.mypackage" />
+      <excludeFolder url="file://$MODULE_DIR$" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />
