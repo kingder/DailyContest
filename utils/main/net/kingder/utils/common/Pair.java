@@ -45,13 +45,12 @@ public class Pair<U, V> implements Comparable<Pair<U, V>> {
     public String toString() {
         return "(" + first + "," + second + ")";
     }
-
+    @SuppressWarnings({"unchecked"})
     public int compareTo(Pair<U, V> o) {
-        return 1;
-        //int value = ((Comparable<U>) second).compareTo(o.second);
-        //if (value != 0)
-        //    return -value;
-        //return -((Comparable<V>) first).compareTo(o.first);
+        int value = ((Comparable<U>)first).compareTo(o.first);
+        if (value != 0)
+            return value;
+        return ((Comparable<V>)second).compareTo(o.second);
     }
 
 }
