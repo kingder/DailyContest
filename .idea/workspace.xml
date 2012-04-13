@@ -2,13 +2,58 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="modify the project!">
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\src\Main.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/ArrayUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/CollectionUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/ReadOnlyIterator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/ReverseComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/filter/Filter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/function/Function.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/intervaltree/IntervalTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/intervaltree/IntervalTreeMutableNodes.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/intervaltree/SumIntervalTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/iss/IndependentSetSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/iss/ListIndependentSetSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/iss/RecursiveIndependentSetSystem.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/map/CPPMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/map/CPPTreeMap.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/sequence/Array.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/sequence/ListUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/sequence/StringWrapper.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/set/MultiSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/set/PersistentSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/set/PersistentTreapSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/collections/set/TreapSet.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/datetime/Date.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/datetime/DateTimeUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/datetime/Month.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/datetime/Time.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/Circle.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/GeometryUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/Line.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/Point.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/Polygon.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/geometry/Segment.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/BidirectionalGraph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/DFS.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/Edge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/FlowEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/GraphAlgorithms.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/SimpleEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/WeightedEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/WeightedFlowEdge.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/misc/Factory.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/misc/MiscUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/misc/Operation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/misc/PowerOperation.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/BooleanMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/DoubleUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/MultiplicativeFunction.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/string/PrefixTree.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/string/StringHash.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/string/StringUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/GraphUtils.java" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/GraphUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/graph.java" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main/net/kingder/utils/io/IOUtils.java" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/io/IOUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/IntegerUtils.java" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/IntegerUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/Rational.java" afterPath="$PROJECT_DIR$/lib/main/net/kingder/utils/numbers/Rational.java" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,26 +119,7 @@
     <favorites_list name="DailyContest" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
-      <file leaf-file-name="ImportantSequence.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/my/mypackage/ImportantSequence.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="25" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="graph.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/kingder/utils/graph/graph.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="7" column="59" selection-start="134" selection-end="134" vertical-scroll-proportion="0.50883394">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf />
   </component>
   <component name="FindManager">
     <FindUsagesManager>
@@ -125,7 +151,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/Main.java" />
         <option value="$PROJECT_DIR$/../Intellij/algo/utils/main/net/kingder/utils/numbers/IntegerUtils.java" />
         <option value="$PROJECT_DIR$/src/my/mypackage/BinaryCode.java" />
         <option value="$PROJECT_DIR$/src/my/mypackage/Unfriendly_Numbers.java" />
@@ -141,6 +166,7 @@
         <option value="$PROJECT_DIR$/src/my/mypackage/RandomColoring.java" />
         <option value="$PROJECT_DIR$/main/my/mypackage/Task.java" />
         <option value="$PROJECT_DIR$/chelper.properties" />
+        <option value="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/SimpleEdge.java" />
       </list>
     </option>
   </component>
@@ -272,6 +298,34 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
       <pane id="Scope">
@@ -330,7 +384,7 @@
       <recent name="my.mypackage" />
     </key>
   </component>
-  <component name="RunManager" selected="Task.Going_Office">
+  <component name="RunManager" selected="TopCoder Task.ImportantSequence">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -600,7 +654,11 @@
       <created>1334316442996</created>
       <updated>1334316442996</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="modify the project!">
+      <created>1334316723176</created>
+      <updated>1334316723176</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -628,7 +686,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6502242" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.2679372" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.66775244" order="1" side_tool="false" content_ui="tabs" />
@@ -643,7 +701,7 @@
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18866916" sideWeight="0.24524076" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886272" sideWeight="0.60749185" order="0" side_tool="false" content_ui="tabs" x="568" y="70" width="492" height="614" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17370391" sideWeight="0.3497758" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.17370391" sideWeight="0.73206276" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.41367713" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" x="639" y="253" width="1231" height="532" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24010554" sideWeight="0.64983714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -865,16 +923,23 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/ImportantSequence.java">
+    <entry file="file://$PROJECT_DIR$/lib/main/net/kingder/utils/graph/SimpleEdge.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="25" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.0">
+        <state line="9" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.26923078">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/kingder/utils/graph/graph.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="59" selection-start="134" selection-end="134" vertical-scroll-proportion="0.50883394">
+        <state line="7" column="59" selection-start="134" selection-end="134" vertical-scroll-proportion="0.23076923">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/mypackage/ImportantSequence.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="25" column="32" selection-start="604" selection-end="604" vertical-scroll-proportion="0.7692308">
           <folding />
         </state>
       </provider>
