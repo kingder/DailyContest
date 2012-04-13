@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/DailyContest.iml" filepath="$PROJECT_DIR$/DailyContest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Intellij/algo/utils/Utils.iml" filepath="$PROJECT_DIR$/../Intellij/algo/utils/Utils.iml" />
+    </modules>
+  </component>
+</project>
+
