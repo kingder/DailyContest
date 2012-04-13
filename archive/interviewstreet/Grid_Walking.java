@@ -8,7 +8,6 @@
 
 package my.mypackage;
 
-import com.sun.deploy.util.ArrayUtil;
 import net.kingder.utils.Arrays.ArrayUtils;
 import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;

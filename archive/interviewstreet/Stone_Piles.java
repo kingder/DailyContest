@@ -12,7 +12,6 @@ import net.kingder.utils.io.IOUtils;
 import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
 
-import java.awt.font.ShapeGraphicAttribute;
 import java.util.ArrayList;
 import java.util.Arrays;
 

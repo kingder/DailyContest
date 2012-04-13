@@ -12,7 +12,6 @@ import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
 import net.kingder.utils.numbers.IntegerUtils;
 
-import java.util.Arrays;
 import java.util.HashSet;
 
 public class Unfriendly_Numbers {

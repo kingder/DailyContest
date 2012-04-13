@@ -11,7 +11,6 @@ package my.mypackage;
 import net.kingder.utils.io.IOUtils;
 import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
-import sun.org.mozilla.javascript.internal.ast.Yield;
 
 import java.util.Arrays;
 

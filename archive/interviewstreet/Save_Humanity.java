@@ -13,7 +13,6 @@ import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 
 public class Save_Humanity {
 	public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
