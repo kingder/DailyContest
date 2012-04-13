@@ -1,23 +1,43 @@
-package net.kingder.utils.graph;
+package net.egork.graph;
+
+import java.util.ArrayList;
+import java.util.List;
 
 /**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-2-21
- * Time: ÏÂÎç8:19
- * To change this template use File | Settings | File Templates.
+ * @author Egor Kulikov (kulikov@devexperts.com)
  */
-public abstract class graph {
+public class Graph {
+	private final int size;
+	private final List<Edge>[] edges;
 
+	public Graph(int size) {
+		this.size = size;
+		//noinspection unchecked
+		edges = new List[size];
+		for (int i = 0; i < size; i++)
+			edges[i] = new ArrayList<Edge>();
+	}
 
-    public int vertexNumber;
-    public int edgeNumber;
+	public int getSize() {
+		return size;
+	}
 
-    public graph() {
-    }
+	public List<Edge> getIncident(int vertex) {
+		return edges[vertex];
+	}
 
-    public graph(int _vn, int _en) {
-        vertexNumber = _vn;
-        edgeNumber = _en;
-    }
+	public void add(Edge edge) {
+		edges[edge.getSource()].add(edge);
+		edge = edge.getReverseEdge();
+		if (edge != null)
+			edges[edge.getSource()].add(edge);
+	}
+
+	public void removeEdge(Edge edge) {
+		edges[edge.getSource()].remove(edge);
+	}
+
+	public void removeVertex(int vertex) {
+		edges[vertex] = new ArrayList<Edge>();
+	}
 }
