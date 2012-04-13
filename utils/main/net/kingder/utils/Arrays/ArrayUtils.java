@@ -12,13 +12,7 @@ import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Comparator;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-3-12
- * Time: обнГ5:11
- * To change this template use File | Settings | File Templates.
- */
+
 public class ArrayUtils {
     public static void decreaseByOne(int[]... arrays){
         for(int[] array:arrays)

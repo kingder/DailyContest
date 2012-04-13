@@ -8,13 +8,7 @@
 
 package net.kingder.utils.graph;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-3-12
- * Time: обнГ4:25
- * To change this template use File | Settings | File Templates.
- */
+
 public class GraphUtils {
 
 

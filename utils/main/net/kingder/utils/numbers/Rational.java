@@ -1,12 +1,6 @@
 package net.kingder.utils.numbers;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-2-24
- * Time: обнГ5:25
- * To change this template use File | Settings | File Templates.
- */
+
 class Rational implements Comparable<Rational> {
 
     public final long numerator;
