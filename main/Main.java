@@ -12,14 +12,17 @@ public class Main {
 		OutputStream outputStream = System.out;
 		MyInputReader in = new MyInputReader(inputStream);
 		MyOutputWriter out = new MyOutputWriter(outputStream);
-		Task1 solver = new Task1();
+		Task solver = new Task();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Task1 {
+class Task {
 	public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
+        out.printLine( "Hello World!");
+        for( int i = 0 ; i < 100 ; i ++ )
+            out.printLine( i );
 	}
 }
 
@@ -43,6 +46,19 @@ class MyOutputWriter {
 
     public MyOutputWriter(Writer writer) {
         this.writer = new PrintWriter(writer);
+    }
+
+    public void print(Object...objects) {
+        for (int i = 0; i < objects.length; i++) {
+            if (i != 0)
+                writer.print(' ');
+            writer.print(objects[i]);
+        }
+    }
+
+    public void printLine(Object...objects) {
+        print(objects);
+        writer.println();
     }
 
     public void close() {
