@@ -2,134 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/ArrayUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/CollectionUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/Pair.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/ReadOnlyIterator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/ReverseComparator.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/filter/Filter.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/function/Function.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/intervaltree/IntervalTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/intervaltree/IntervalTreeMutableNodes.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/intervaltree/SumIntervalTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/iss/IndependentSetSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/iss/ListIndependentSetSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/iss/RecursiveIndependentSetSystem.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPTreeMap.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/sequence/Array.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/sequence/ListUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/sequence/StringWrapper.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/set/MultiSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentTreapSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/collections/set/TreapSet.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/datetime/Date.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/datetime/DateTimeUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/datetime/Month.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/datetime/Time.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/Circle.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/GeometryUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/Line.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/Point.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/Polygon.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/geometry/Segment.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/BidirectionalGraph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/DFS.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/Edge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/FlowEdge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/Graph.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/GraphAlgorithms.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/GraphUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/SimpleEdge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/WeightedEdge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/graph/WeightedFlowEdge.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/io/IOUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/misc/Factory.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/misc/MiscUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/misc/Operation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/misc/PowerOperation.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/BooleanMatrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/DoubleUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/IntegerUtils.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/Matrix.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/MultiplicativeFunction.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/numbers/Rational.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/string/PrefixTree.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/string/StringHash.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/string/StringUtils.java" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\Lib.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\Arrays\ArrayUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\ArrayUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\CollectionUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\Pair.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\ReadOnlyIterator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\ReverseComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\filter\Filter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\function\Function.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\intervaltree\IntervalTree.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\intervaltree\IntervalTreeMutableNodes.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\intervaltree\SumIntervalTree.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\iss\IndependentSetSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\iss\ListIndependentSetSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\iss\RecursiveIndependentSetSystem.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\map\CPPMap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\map\CPPTreeMap.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\sequence\Array.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\sequence\ListUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\sequence\StringWrapper.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\set\MultiSet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\set\PersistentSet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\set\PersistentTreapSet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\collections\set\TreapSet.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\common\Pair.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\common\ReverseComparator.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\datetime\Date.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\datetime\DateTimeUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\datetime\Month.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\datetime\Time.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\Circle.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\GeometryUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\Line.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\Point.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\Polygon.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\geometry\Segment.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\BidirectionalGraph.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\DFS.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\Edge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\FlowEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\GraphAlgorithms.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\GraphUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\SimpleEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\WeightedEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\WeightedFlowEdge.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\graph\graph.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\io\IOUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\io\MyInputReader.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\io\MyOutputWriter.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\misc\Factory.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\misc\MiscUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\misc\Operation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\misc\PowerOperation.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\BooleanMatrix.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\DoubleUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\IntegerUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\Matrix.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\MultiplicativeFunction.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\numbers\Rational.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\string\PrefixTree.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\string\StringHash.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\string\StringUtils.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\kingder\utils\strings\StringUtils.java" afterPath="" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/main/net/egork/utils/io/OutputWriter.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/Arrays/ArrayUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/ReverseComparator.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/GraphUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/graph.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/IntegerUtils.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/Rational.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/strings/StringUtils.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Circle_Summation.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Circle_Summation.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Generate_test.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Generate_test.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Grid_Walking.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Grid_Walking.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/KOPC12A.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/KOPC12A.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Quadrant_Queries.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Quadrant_Queries.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Save_Humanity.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Save_Humanity.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Stone_Piles.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Stone_Piles.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/archive/interviewstreet/Unfriendly_Numbers.java" afterPath="$PROJECT_DIR$/archive/interviewstreet/Unfriendly_Numbers.java" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -196,11 +80,51 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="MyInputReader.java" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="MyInputReader.java" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.18640776">
+            <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
               <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="IOUtils.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/io/IOUtils.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Point.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/geometry/Point.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="7" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="InputReader.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="13" column="24" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Going_Office.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="16" column="51" selection-start="645" selection-end="645" vertical-scroll-proportion="0.42179263">
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -237,8 +161,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/my/mypackage/BinaryCode.java" />
-        <option value="$PROJECT_DIR$/src/my/mypackage/Unfriendly_Numbers.java" />
         <option value="$PROJECT_DIR$/../Intellij/algo/utils/main/net/kingder/utils/graph/GraphUtils.java" />
         <option value="$PROJECT_DIR$/src/my/mypackage/Going_Office.java" />
         <option value="$PROJECT_DIR$/topcoder/Over9000Rocks.java" />
@@ -253,6 +175,8 @@
         <option value="$PROJECT_DIR$/chelper.properties" />
         <option value="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/SimpleEdge.java" />
         <option value="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/WeightedEdge.java" />
+        <option value="$PROJECT_DIR$/lib/main/net/egork/io/io/IOUtils.java" />
+        <option value="$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java" />
       </list>
     </option>
   </component>
@@ -408,6 +332,28 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -467,7 +413,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="net.egork.io.io" />
       <recent name="my.mypackage" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\egork\utils" />
     </key>
   </component>
   <component name="RunManager" selected="TopCoder Task.ImportantSequence">
@@ -748,7 +698,11 @@
       <created>1334316893054</created>
       <updated>1334316893054</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="add egor lib.">
+      <created>1334317616617</created>
+      <updated>1334317616617</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -776,7 +730,7 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.39013454" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3295964" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2980456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -784,15 +738,15 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43161434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5560538" sideWeight="0.5066809" order="8" side_tool="true" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18866916" sideWeight="0.24524076" order="3" side_tool="true" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.37331837" sideWeight="0.48415923" order="10" side_tool="false" content_ui="tabs" x="10" y="383" width="1231" height="127" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.15246637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18866916" sideWeight="0.24524076" order="1" side_tool="true" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886272" sideWeight="0.60749185" order="0" side_tool="false" content_ui="tabs" x="568" y="70" width="492" height="614" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18278995" sideWeight="0.6098655" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18278995" sideWeight="0.6704036" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.41367713" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" x="639" y="253" width="1231" height="532" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24010554" sideWeight="0.64983714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -926,13 +880,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="18" column="13" selection-start="660" selection-end="660" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/archive/unsorted/Over9000Rocks.java">
       <provider selected="true" editor-type-id="text-editor">
         <state line="53" column="29" selection-start="339" selection-end="1631" vertical-scroll-proportion="0.0" />
@@ -1011,8 +958,40 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.18640776">
+        <state line="8" column="13" selection-start="200" selection-end="200" vertical-scroll-proportion="0.0">
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/io/IOUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="208" selection-end="208" vertical-scroll-proportion="0.0">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/geometry/Point.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="13" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="13" column="24" selection-start="243" selection-end="243" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="51" selection-start="645" selection-end="645" vertical-scroll-proportion="0.42179263">
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
