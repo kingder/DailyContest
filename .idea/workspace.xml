@@ -2,18 +2,24 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="done.">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/vcs.xml" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Task1.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Task1Checker.java" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\DailyContest.iml" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\Connect_the_country.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\Connect_the_countryChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\DCEPC206.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\DCEPC206Checker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\Going_Office.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\Going_OfficeChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\ImportantSequence.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\Task.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\TaskChecker.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\acm.java" afterPath="" />
+      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\my\mypackage\acmChecker.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\topcoder\ImportantSequence.java" afterPath="$PROJECT_DIR$/archive/unsorted/ImportantSequence.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/chelper.properties" afterPath="$PROJECT_DIR$/chelper.properties" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/Main.java" afterPath="$PROJECT_DIR$/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/my/mypackage/Task.java" afterPath="$PROJECT_DIR$/main/my/mypackage/Task.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/Arrays/ArrayUtils.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/Arrays/ArrayUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/ReverseComparator.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/ReverseComparator.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/GraphUtils.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/GraphUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/graph.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/graph.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/Rational.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/Rational.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/strings/StringUtils.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/strings/StringUtils.java" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -111,22 +117,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/lib/main/net/egork/io/io/IOUtils.java" />
-        <option value="$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskA.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskB.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskC.java" />
-        <option value="$PROJECT_DIR$/main/Main.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/Going_Office.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/Task.java" />
-        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" />
-        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/GraphUtils.java" />
-        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/graph/graph.java" />
-        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/Arrays/ArrayUtils.java" />
-        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/common/ReverseComparator.java" />
         <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" />
         <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/strings/StringUtils.java" />
         <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/Rational.java" />
+        <option value="$PROJECT_DIR$/main/my/acmChecker.java" />
+        <option value="$PROJECT_DIR$/main/my/acm.java" />
+        <option value="$PROJECT_DIR$/main/my/Connect_the_country.java" />
+        <option value="$PROJECT_DIR$/main/my/Connect_the_countryChecker.java" />
+        <option value="$PROJECT_DIR$/main/my/DCEPC206.java" />
+        <option value="$PROJECT_DIR$/main/my/DCEPC206Checker.java" />
+        <option value="$PROJECT_DIR$/main/my/Going_Office.java" />
+        <option value="$PROJECT_DIR$/main/my/Going_OfficeChecker.java" />
+        <option value="$PROJECT_DIR$/main/my/ImportantSequence.java" />
+        <option value="$PROJECT_DIR$/main/my/Task.java" />
+        <option value="$PROJECT_DIR$/main/my/TaskChecker.java" />
+        <option value="$PROJECT_DIR$/chelper.properties" />
+        <option value="$PROJECT_DIR$/main/my/Task1.java" />
       </list>
     </option>
   </component>
@@ -240,9 +246,28 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
+        <subPane subId="Default">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
         <subPane subId="Non-Project Files" />
-        <subPane subId="Problems">
+        <subPane subId="Problems" />
+        <subPane subId="Production">
           <PATH>
             <PATH_ELEMENT USER_OBJECT="Root">
               <option name="myItemId" value="" />
@@ -259,13 +284,19 @@
             </PATH_ELEMENT>
           </PATH>
         </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
+        <subPane subId="Changed Files">
           <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyContest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+        <subPane subId="All">
+          <PATH>
+            <PATH_ELEMENT USER_OBJECT="Root">
+              <option name="myItemId" value="" />
+              <option name="myItemType" value="" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -286,16 +317,6 @@
             <PATH_ELEMENT>
               <option name="myItemId" value="DailyContest" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="DailyContest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="utils" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -330,7 +351,7 @@
       <recent name="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\egork\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Task.Task">
+  <component name="RunManager">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -514,43 +535,7 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="false" name="acm" type="Task" factoryName="Task">
-      <taskConf>acm::/src/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::999999999 10000000000000;;;;true</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Connect_the_country" type="Task" factoryName="Task">
-      <taskConf>Connect_the_country::/src/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::1;;;;true::2;;;;true::3;;;;true::4;;;;true::30;;;;true</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="ImportantSequence" type="TopCoderTask" factoryName="TopCoder Task">
-      <taskConf>ImportantSequence::int getCount(int[] B, String operators)::3,-1,7;;+-+;;2;;true::1;;-;;-1;;true::1;;+;;0;;true::10;;+;;9;;true::540,2012,540,2012,540,2012,540;;-+-+-+-;;1471;;true</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Task" type="Task" factoryName="Task">
-      <taskConf>Task::/main/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::empty</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <configuration default="false" name="Going_Office" type="Task" factoryName="Task">
-      <taskConf>Going_Office::/main/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::6 9/__0 1 1/__1 2 1/__2 3 1/__3 4 1/__4 5 1/__2 4 5/__3 5 8/__1 3 3/__0 2 4/__0 5/__9/__0 1/__1 2/__2 3/__3 4/__4 5/__2 4/__3 5/__1 3/__0 2;;7/__6/__6/__8/__11/__5/__5/__5/__5;;true</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
-    <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="Task.acm" />
-      <item index="1" class="java.lang.String" itemvalue="Task.Connect_the_country" />
-      <item index="2" class="java.lang.String" itemvalue="TopCoder Task.ImportantSequence" />
-      <item index="3" class="java.lang.String" itemvalue="Task.Task" />
-      <item index="4" class="java.lang.String" itemvalue="Task.Going_Office" />
-    </list>
+    <list size="0" />
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
       <Port>5050</Port>
@@ -644,22 +629,21 @@
     <editor active="false" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.6287129" sideWeight="0.3254486" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.330033" sideWeight="0.31810766" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.66775244" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43161434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.31683168" sideWeight="0.6688418" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18316832" sideWeight="0.6761827" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32838285" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5528053" sideWeight="0.48415923" order="10" side_tool="false" content_ui="tabs" x="10" y="383" width="1231" height="127" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.15246637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886272" sideWeight="0.60749185" order="0" side_tool="false" content_ui="tabs" x="568" y="70" width="492" height="614" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.182708" sideWeight="0.37128714" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.1990212" sideWeight="0.669967" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.22607261" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" x="639" y="253" width="1231" height="532" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24010554" sideWeight="0.64983714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
@@ -667,6 +651,7 @@
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2980456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.5528053" sideWeight="0.48415923" order="10" side_tool="false" content_ui="tabs" x="10" y="383" width="1231" height="127" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -788,106 +773,107 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/GraphUtils.java">
+    <entry file="file://$PROJECT_DIR$/main/my/DCEPC206.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0" />
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/WeightedFlowEdge.java">
+    <entry file="file://$PROJECT_DIR$/main/my/DCEPC206Checker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0" />
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/Going_Office.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/Going_OfficeChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/Task.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main/my/TaskChecker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="0" selection-start="44" selection-end="44" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/chelper.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="64" selection-start="1108" selection-end="1251" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="298" column="4" selection-start="9818" selection-end="9818" vertical-scroll-proportion="0.0">
+        <state line="7" column="30" selection-start="268" selection-end="268" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/GraphAlgorithms.java">
+    <entry file="file://$PROJECT_DIR$/main/my/Connect_the_country.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="24" selection-start="5183" selection-end="6099" vertical-scroll-proportion="0.049586777">
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
+    <entry file="file://$PROJECT_DIR$/main/my/Connect_the_countryChecker.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="113" column="30" selection-start="4730" selection-end="4730" vertical-scroll-proportion="0.0">
+        <state line="4" column="10" selection-start="41" selection-end="41" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Task.java">
+    <entry file="file://$PROJECT_DIR$/README">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="46" selection-start="365" selection-end="365" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java">
+    <entry file="file://$PROJECT_DIR$/DailyContest.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="0" selection-start="427" selection-end="427" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/graph/GraphUtils.java">
+    <entry file="file://$PROJECT_DIR$/main/Main.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="0" selection-start="431" selection-end="431" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/graph/graph.java">
+    <entry file="file://$PROJECT_DIR$/lib/Lib.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="11" selection-start="78" selection-end="78" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/Arrays/ArrayUtils.java">
+    <entry file="file://$PROJECT_DIR$/archive/Archive.iml">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="14" column="0" selection-start="515" selection-end="515" vertical-scroll-proportion="0.0">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/common/ReverseComparator.java">
+    <entry file="file://$PROJECT_DIR$/main/my/ImportantSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="65" selection-end="65" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/strings/StringUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="0" selection-start="36" selection-end="36" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/numbers/Rational.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="109" selection-end="109" vertical-scroll-proportion="0.25945947">
+        <state line="3" column="66" selection-start="30" selection-end="30" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
