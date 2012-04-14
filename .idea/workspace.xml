@@ -2,16 +2,19 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="">
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\Generate_test.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\Main.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\Main.iml" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\Main.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\MyInputReader.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\MyOutputWriter.class" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Weichao Luo\Desktop\GitHub\DailyContest\main\in.in" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/A-small-attempt0.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/B-large.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/B-small-attempt0.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/C-large.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/C-small-attempt0.in" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/A. Speaking in Tongues.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/B_Dancing_With_the_Googlers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/B_Dancing_With_the_GooglersChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/C_Recycled_Numbers.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/C_Recycled_NumbersChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/codejam2012/Qualification Round/Google_CodeJamChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/utils/net/kingder/utils/io/MyInputReader.class" afterPath="$PROJECT_DIR$/out/production/utils/net/kingder/utils/io/MyInputReader.class" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -827,7 +830,11 @@
       <created>1334342795401</created>
       <updated>1334342795401</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="gcj qualification round.">
+      <created>1334383634184</created>
+      <updated>1334383634184</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="TodoView" selected-index="1">
@@ -919,7 +926,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="change IDE settings." />
+    <option name="LAST_COMMIT_MESSAGE" value="gcj qualification round." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -936,6 +943,7 @@
     <MESSAGE value="add egor lib." />
     <MESSAGE value="done." />
     <MESSAGE value="change IDE settings." />
+    <MESSAGE value="gcj qualification round." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
