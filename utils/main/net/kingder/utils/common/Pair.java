@@ -1,12 +1,6 @@
 package net.kingder.utils.common;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-2-24
- * Time: обнГ5:04
- * To change this template use File | Settings | File Templates.
- */
+
 public class Pair<U, V> implements Comparable<Pair<U, V>> {
     public final U first;
     public final V second;

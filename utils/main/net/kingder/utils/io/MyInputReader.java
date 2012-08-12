@@ -48,12 +48,7 @@ public class MyInputReader {
         }
         return buf[curChar];
     }
-    public int nextInt(){
-        return readInt();
-    }
-    public long nextLong(){
-        return readLong();
-    }
+
     public int readInt() {
         int c = read();
         while (isSpaceChar(c))
@@ -72,6 +67,9 @@ public class MyInputReader {
             c = read();
         } while (!isSpaceChar(c));
         return res * sgn;
+    }
+    public int nextInt(){
+        return readInt() ;
     }
 
     public long readLong() {
@@ -92,6 +90,9 @@ public class MyInputReader {
             c = read();
         } while (!isSpaceChar(c));
         return res * sgn;
+    }
+    public long nextLong(){
+        return readLong();
     }
 
     public String readString() {
