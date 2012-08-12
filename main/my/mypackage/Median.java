@@ -7,8 +7,12 @@ package my.mypackage;
 import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
 
-public class Task {
+public class Median {
 	public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
-        out.printLine( "Hello World!");
+        int n = in.nextInt();
+        for( int i = 0 ; i < n ; i ++ ){
+
+
+        }
 	}
 }

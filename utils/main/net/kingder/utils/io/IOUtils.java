@@ -8,13 +8,6 @@
 
 package net.kingder.utils.io;
 
-/**
- * Created by IntelliJ IDEA.
- * User: Weichao Luo
- * Date: 12-3-12
- * Time: обнГ5:15
- * To change this template use File | Settings | File Templates.
- */
 public class IOUtils {
     public static void readIntArrays( MyInputReader in,int[]... arrays ){
         for(int i = 0 ; i < arrays[0].length; i++ )

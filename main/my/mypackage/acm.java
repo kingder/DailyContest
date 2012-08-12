@@ -8,50 +8,47 @@
 
 package my.mypackage;
 
+import net.kingder.utils.Arrays.ArrayUtils;
 import net.kingder.utils.io.IOUtils;
 import net.kingder.utils.io.MyInputReader;
 import net.kingder.utils.io.MyOutputWriter;
 
+import java.util.Comparator;
+
 public class acm {
-    long[] A, D, P;
-    static final int mod = 1000003;
+
     public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
-        int n = in.nextInt();
-        A = new long[n];
-        D = new long[n];
-        P = new long[n];
-        IOUtils.readLongArrays(in, A, D, P);
-        
+        int n = in.nextInt() ;
+        int[] rate = new int[n] , cost = new int[ n];
+        IOUtils.readIntArrays( in , rate, cost);
         int m = in.nextInt() ;
-        long[] fac = new long[mod + 1];
-        fac[0] = 1;
-        for (int i = 1; i < mod; i++) fac[i] = fac[i - 1] * i % mod;
-        for( int i = 0 ; i < m ; i ++ ){
-            if( in.nextInt() == 0 ){
-                int a = in.nextInt() ;
-                int b = in.nextInt() ;
-                int v = in.nextInt() ;
-                for( int j = a-1 ; j < b ; j ++ )
-                    P[j] += v ;
-            }else{
-                int a = in.nextInt() ;
-                int b = in.nextInt() ;
-                long sum = 0 , ret = 1;
-                for( int j = a-1 ; j < b ; j ++ ){
-                    sum += P[j] ;
-                    ret = ret * power_mod( D[j] , P[j] ) % mod ;
-                }
-                if( sum >= mod ) ret = 0 ;
-                else ret = ret * fac[(int)sum] % mod ;
-                out.printLine( sum , ret );
+        final long[] com_cost = new long[1<<n];
+        final long[] com_rate = new long[1<<n];
+        for( int i = 0 ; i < (1<<n) ; i ++){
+            for( int j = 0 ; j < n ; j ++ )if((i&(1<<j))!=0){
+                com_cost[i] += cost[j];
+                com_rate[i] += rate[j];
             }
         }
+        Integer[] order = ArrayUtils.order( (1<<n) , new Comparator<Integer>() {
+            @Override
+            public int compare(Integer o1, Integer o2) {
+                return com_cost[o1] < com_cost[o2] ? -1 : 1;
+            }
+        });
+
+        for( int tc = 1 ; tc <= m ; tc ++ ){
+            int V = in.nextInt() , T = in.nextInt() ;
+            long ret = -1;
+            for( int i = 0 ; i < (1<<n) ; i++){
+                if( com_rate[ order[i] ] * T >= (long)V ){
+                    ret = com_cost[i] ;
+                    break;
+                }
+            }
+            out.printLine( "Case " + tc + ": " + (ret == -1 ? "IMPOSSIBLE" : ret));
+        }
     }
-    private long power_mod(long n, long m) {
-        if (m == 0) return 1;
-        if (m == 1) return n;
-        long ret = power_mod(n, m >> 1);
-        return (m & 1) == 0 ? ret * ret % mod : ret * ret % mod * n % mod;
-    }
+
 }
 

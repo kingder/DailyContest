@@ -1,5 +1,14 @@
-import java.io.*;
-import java.util.*;
+import java.util.List;
+import java.io.IOException;
+import java.util.Arrays;
+import java.util.InputMismatchException;
+import java.util.ArrayList;
+import java.io.OutputStream;
+import java.io.PrintWriter;
+import java.io.Writer;
+import java.math.BigInteger;
+import java.util.Collections;
+import java.io.InputStream;
 
 /**
  * Built using CHelper plug-in
@@ -12,183 +21,119 @@ public class Main {
 		OutputStream outputStream = System.out;
 		MyInputReader in = new MyInputReader(inputStream);
 		MyOutputWriter out = new MyOutputWriter(outputStream);
-		Going_Office solver = new Going_Office();
+		Ants solver = new Ants();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Going_Office {
-    int[][] graph;
-    int[] dis_from_source;
-    HashMap<Pair<Integer,Integer>,Integer> edge_map;
-    HashSet<Integer> edge_in_path;
-    int[] changed;
-    int[] changed_distance;
-    int changedIndex = 0 ;
-    int[] already_asked;
-
+class Ants {
+    static int MAXDIS = 10000 ;
+    static int MAXTIME = 1000000006;
     public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
-        int n = in.nextInt() , m = in.nextInt() ;
-        int[] from = new int[ m ] , to = new int[ m ] , length = new int[ m ];
-        IOUtils.readIntArrays( in , from , to , length );
+        int n = in.nextInt() ;
+        int[] dis = new int[n] ;
+        int[] dir = new int[n] ;
+        for( int i = 0 ; i < n ; i ++ ) dis[i] = in.nextInt() * 10 ;
+        Arrays.sort(dis);
 
-        edge_map = new HashMap<Pair<Integer, Integer>, Integer>();
-        for( int i = 0 ; i < m ; i ++ ){
-            edge_map.put(Pair.makePair(from[i], to[i]), i);
-            edge_map.put( Pair.makePair( to[i] , from[i] ) , i );
-        }
-
-        int source = in.nextInt() , sink = in.nextInt() ;
-        graph = GraphUtils.buildGraph(n, from, to, false);
-        dis_from_source = Dijkstra(graph, from, to, length, n, source);
-
-        //IOUtils.printIntArrays( out, dis_from_source ,pre, order,rorder );
-        edge_in_path = get_path(graph, from, to, source, sink );
-
-        changed = new int[ n ] ;
-        changed_distance = new int[ n ] ;
-        already_asked = new int[m];
-        Arrays.fill( changed , 0 ) ;
-        Arrays.fill( already_asked , -1 ) ;
-        int Q = in.nextInt() ;
-
-        while ( Q-- > 0){
-            ++changedIndex;
-            int distance = get_distance( out, in.nextInt() ,in.nextInt(),graph,from,to,length,n,source,sink );
-            out.printLine( distance == Integer.MAX_VALUE ? "Infinity" : distance);
-        }
-
-    }
-
-    private int get_distance( MyOutputWriter out, int u , int v, int[][] graph, int[] from, int[] to, int[] length, int n, int source, int sink) {
-        int id = edge_map.get( Pair.makePair(u,v) ) ;
-
-        if( already_asked[id] != -1 )
-            return already_asked[id];
-
-        if( !edge_in_path.contains(id) )
-            return  already_asked[id] = dis_from_source[sink];
-
-        int preserved = length[ id ] ;
-        length[ id ] = Integer.MAX_VALUE;
-
-        if( rorder[u] > rorder[v] ){
-            int t = u ; u = v ; v = t;
-        }
-        int ret = dijkstraAlgorithm( out, graph , from , to , length, n, v,sink);
-
-        length[ id ] = preserved ;
-        return already_asked[id] = ret;
-
-    }
-    public int dijkstraAlgorithm( MyOutputWriter out,int[][] graph , int[] from , int[] to ,int[] length , int n, int source,int sink) {
-        PriorityQueue<Pair<Integer,Integer>> PQ = new PriorityQueue<Pair<Integer, Integer>>( );
-        //out.printLine( source , sink );
-        for( int i = rorder[source] ; i < n ; i ++ ){
-            int u = order[i] ;
-            changed_distance[u] = Integer.MAX_VALUE;
-            for( int id : graph[u] ){
-                int v = GraphUtils.otherVertex( u , from[id] , to[id] );
-                if( rorder[v] >= rorder[source] || length[id] == Integer.MAX_VALUE || dis_from_source[v] == Integer.MAX_VALUE ) continue;
-                if( changed_distance[u] > dis_from_source[v] + length[id] ){
-                    changed_distance[u] = dis_from_source[v] + length[id] ;
-                }
+        long tot = 0 ;
+        for( int i = 0 ; i < n ; i ++ )for( int d = -1 ; d <= 1 ; d ++ )if(d!=0){ // 1 clockwise, -1 counterclockwise
+            dir[i] = d ;
+            for( int j = 0 ; j < n-1 ; j ++ ){
+                dir[(i+j+1)%n] = dir[(i+j)%n] * -1 ;
             }
-            if( changed_distance[u] != Integer.MAX_VALUE )
-                PQ.offer( Pair.makePair( changed_distance[u] , u ) );
+            tot = Math.max( tot , go(  n , dir , dis ) );
         }
+        out.printLine(tot);
+	}
 
-        //IOUtils.printIntArrays( out,changed_distance );
-        while ( !PQ.isEmpty() ){
-            int u = PQ.poll().second;
-            if( changed[u] == changedIndex ) continue;
-            changed[u] = changedIndex ;
-            if( u == sink ) return changed_distance[u] ;
-            for( int i: graph[u] ){
-                int v = GraphUtils.otherVertex(u, from[i], to[i]);
-                if( rorder[v] < rorder[source] || length[i] == Integer.MAX_VALUE ) continue;
-                if( length[i] != Integer.MAX_VALUE && changed_distance[v] > changed_distance[u] + length[i] ){
-                    changed_distance[v] = changed_distance[u] + length[i] ;
-                    PQ.offer( Pair.makePair( changed_distance[v] , v ) );
-                }
-            }
+    private long go(int n, int[] dir, int[] dis) {
+        long ret = 0 ;
+        ArrayList<Integer> time = new ArrayList<Integer>();
+        for( int i = 0 ; i < n ; i ++ ){
+             for( int j = 0 ; j < n ; j ++ )if( dir[j] != dir[i] ) {
+                 if( dis[i] < dis[j] ){
+                     if( dir[i] == 1 ){
+                         time.add( (dis[j] - dis[i]) / 2 );
+                         time.add( (dis[j] - dis[i] + MAXDIS) / 2);
+                     }else{
+                         time.add( (MAXDIS - (dis[j] - dis[i]) ) / 2 );
+                         time.add( MAXDIS - (dis[j] - dis[i]) / 2);
+                     }
+                 }else{
+                     if( dir[i] == 1){
+                         time.add( (MAXDIS - (dis[i] - dis[j]) ) / 2 );
+                         time.add( MAXDIS - (dis[i] - dis[j]) / 2);
+                     }else{
+                         time.add( (dis[i] - dis[j]) / 2 );
+                         time.add( (dis[i] - dis[j] + MAXDIS) / 2);
+                     }
+                 }
+             }
         }
+        Collections.sort( time );
+        ret += MAXTIME / MAXDIS * time.size();
 
-        return Integer.MAX_VALUE;
-    }
-    private HashSet<Integer> get_path(int[][] graph, int[] from, int[] to, int source,int sink) {
-        HashSet<Integer> ret = new HashSet<Integer>();
-        if( dis_from_source[sink] == Integer.MAX_VALUE ) return ret;
-        while ( sink != source ){
-            ret.add( pre[sink] );
-            sink = GraphUtils.otherVertex( sink , from[pre[sink]] , to[pre[sink]]);
-        }
+        for( int i = 0 ; i < time.size() ; i ++ ) if( time.get(i) <= MAXTIME % MAXDIS ) ret ++ ;
         return ret;
     }
-
-    static int[] pre ;
-    static int[] order;
-    static int[] rorder;
-    public static int[] Dijkstra( int[][] graph , int[] from , int[] to ,int[] length , int n, int source ){
-        int[] distance = new int[ n ];
-        boolean[] processed = new boolean[ n ] ;
-        order =new int[n];
-        rorder = new int[ n ];
-        Arrays.fill(distance, Integer.MAX_VALUE);
-        Arrays.fill( processed , false );
-        PriorityQueue<Pair<Integer,Integer>> PQ = new PriorityQueue<Pair<Integer, Integer>>( );
-        pre = new int[ n ] ;
-        distance[source] = 0 ;
-        pre[source] = -1;
-        PQ.offer( Pair.makePair( 0 , source) );
-        int orderindex = 0 ;
-
-        while ( !PQ.isEmpty() ){
-            int u = PQ.poll().second;
-            if( processed[u] ) continue;
-            processed[u] = true;
-            order[orderindex] = u ;
-            rorder[u] = orderindex++;
-            for( int i: graph[u] ){
-                int v = GraphUtils.otherVertex(u, from[i], to[i]);
-                if( distance[v] > distance[u] + length[i] ){
-                    pre[v] = i ;
-                    distance[v] = distance[u] + length[i] ;
-                    PQ.offer( Pair.makePair( distance[v] , v ) );
-                }
-            }
-        }
-        return distance;
-    }
-
-
 }
 
 class MyInputReader {
-    private BufferedReader reader;
-    private StringTokenizer tokenizer;
+
+    private InputStream stream;
+    private byte[] buf = new byte[1024];
+    private int curChar;
+    private int numChars;
 
     public MyInputReader(InputStream stream) {
-        reader = new BufferedReader(new InputStreamReader(stream));
-        tokenizer = null;
+        this.stream = stream;
     }
 
-    public String next() {
-        while (tokenizer == null || !tokenizer.hasMoreTokens()) {
+    public int read() {
+        if (numChars == -1)
+            throw new InputMismatchException();
+        if (curChar >= numChars) {
+            curChar = 0;
             try {
-                tokenizer = new StringTokenizer(reader.readLine());
+                numChars = stream.read(buf);
             } catch (IOException e) {
-                throw new RuntimeException(e);
+                throw new InputMismatchException();
             }
+            if (numChars <= 0)
+                return -1;
         }
-        return tokenizer.nextToken();
+        return buf[curChar++];
     }
 
-    public int nextInt() {
-        return Integer.parseInt(next());
+    public int nextInt(){
+        return readInt();
     }
-    
+    public int readInt() {
+        int c = read();
+        while (isSpaceChar(c))
+            c = read();
+        int sgn = 1;
+        if (c == '-') {
+            sgn = -1;
+            c = read();
+        }
+        int res = 0;
+        do {
+            if (c < '0' || c > '9')
+                throw new InputMismatchException();
+            res *= 10;
+            res += c - '0';
+            c = read();
+        } while (!isSpaceChar(c));
+        return res * sgn;
+    }
+
+    public static boolean isSpaceChar(int c) {
+        return c == ' ' || c == '\n' || c == '\r' || c == '\t' || c == -1;
+    }
+
     }
 
 class MyOutputWriter {
@@ -220,79 +165,4 @@ class MyOutputWriter {
     }
 
 }
-
-class IOUtils {
-    public static void readIntArrays( MyInputReader in,int[]... arrays ){
-        for(int i = 0 ; i < arrays[0].length; i++ )
-            for( int j = 0 ; j < arrays.length ; j ++ )
-                arrays[j][i] = in.nextInt();
-    }
-    }
-
-class Pair<U, V> implements Comparable<Pair<U, V>> {
-    public final U first;
-    public final V second;
-
-    public Pair(U first, V second) {
-        this.first = first;
-        this.second = second;
-    }
-
-    public static <U, V> Pair<U, V> makePair(U first, V second) {
-        return new Pair<U, V>(first, second);
-    }
-
-    public boolean equals(Object o) {
-        if (this == o) return true;
-        if (o == null || getClass() != o.getClass())
-            return false;
-        Pair pair = (Pair) o;
-        return !(first != null ? !first.equals(pair.first) : pair.first != null) &&
-                !(second != null ? !second.equals(pair.second) : pair.second != null);
-    }
-
-    public int hashCode() {
-        int result = first != null ? first.hashCode() : 0;
-        return 31 * result + (second != null ? second.hashCode() : 0);
-    }
-
-    public String toString() {
-        return "(" + first + "," + second + ")";
-    }
-    public int compareTo(Pair<U, V> o) {
-        int value = ((Comparable<U>)first).compareTo(o.first);
-        if (value != 0)
-            return value;
-        return ((Comparable<V>)second).compareTo(o.second);
-    }
-
-}
-
-class GraphUtils {
-
-
-
-    public static int[][] buildGraph(int vertexCount, int[] from, int[] to ,boolean isDirected ) {
-        int edgeCount = from.length;
-        int[] degree = new int[vertexCount];
-        for (int i = 0; i < edgeCount; i++) {
-            degree[from[i]]++;
-            if(!isDirected)degree[to[i]]++;
-        }
-        int[][] graph = new int[vertexCount][];
-        for (int i = 0; i < vertexCount; i++) {
-            graph[i] = new int[degree[i]];
-        }
-        for (int i = 0; i < edgeCount; i++) {
-            graph[from[i]][--degree[from[i]]] = i;
-            if(!isDirected)graph[to[i]][--degree[to[i]]] = i;
-        }
-        return graph;
-    }
-
-    public static int otherVertex(int vertex, int from, int to) {
-        return from + to - vertex;
-    }
-
-    }
 

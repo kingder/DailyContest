@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="done.">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/lib/Lib.iml" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\main\my\mypackage\Going_Office.java" afterPath="" />
-      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\main\my\mypackage\Going_OfficeChecker.java" afterPath="" />
+    <list default="true" id="3bec315d-0404-4cbb-af5d-282d13aca008" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Ants.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Matrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/MatrixChecker.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Picking_Cards.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/archive/unsorted/Picking_CardsChecker.java" />
+      <change type="DELETED" beforePath="C:\Users\Kingder\Desktop\DailyContest\main\my\mypackage\Task.java" afterPath="" />
+      <change type="MOVED" beforePath="C:\Users\Kingder\Desktop\DailyContest\main\my\mypackage\TaskChecker.java" afterPath="$PROJECT_DIR$/archive/unsorted/AntsChecker.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/Main.class" afterPath="$PROJECT_DIR$/main/Main.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/MyInputReader.class" afterPath="$PROJECT_DIR$/main/MyInputReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/MyOutputWriter.class" afterPath="$PROJECT_DIR$/main/MyOutputWriter.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/out/production/utils/net/kingder/utils/io/MyInputReader.class" afterPath="$PROJECT_DIR$/out/production/utils/net/kingder/utils/io/MyInputReader.class" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/Main.java" afterPath="$PROJECT_DIR$/main/Main.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/main/my/mypackage/acm.java" afterPath="$PROJECT_DIR$/main/my/mypackage/acm.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" afterPath="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" />
     </list>
     <ignored path="DailyContest.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -74,67 +85,38 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Task.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/my/mypackage/Task.java">
+      <file leaf-file-name="CPPTreeMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPTreeMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
+            <state line="0" column="58" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Going_Office.java" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
+      <file leaf-file-name="CPPMap.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPMap.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="43" selection-start="4164" selection-end="4164" vertical-scroll-proportion="0.3893395">
-              <folding>
-                <element signature="e#3253#3277#0" expanded="true" />
-                <element signature="e#5754#5778#0" expanded="true" />
-              </folding>
+            <state line="9" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java">
+      <file leaf-file-name="IndependentSetSystem.java" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/iss/IndependentSetSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="52" column="59" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1254#1286#0" expanded="true" />
-              </folding>
+            <state line="5" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0">
+              <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Pair.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/Pair.java">
+      <file leaf-file-name="ListIndependentSetSystem.java" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/iss/ListIndependentSetSystem.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="50" column="64" selection-start="1108" selection-end="1251" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#1035#1067#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Main.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/main/Main.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="307" column="4" selection-start="10158" selection-end="10158" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="imports" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="GraphAlgorithms.java" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/GraphAlgorithms.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="187" column="24" selection-start="5183" selection-end="6099" vertical-scroll-proportion="0.0">
-              <folding>
-                <element signature="e#5389#5410#0" expanded="true" />
-              </folding>
+            <state line="36" column="12" selection-start="949" selection-end="949" vertical-scroll-proportion="0.29327902">
+              <folding />
             </state>
           </provider>
         </entry>
@@ -171,22 +153,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/src/my/mypackage/FoxBomb.java" />
-        <option value="$PROJECT_DIR$/topcoder/RandomColoring.java" />
-        <option value="$PROJECT_DIR$/src/my/mypackage/ImportantSequence.java" />
-        <option value="$PROJECT_DIR$/src/my/mypackage/RandomColoring.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/Task.java" />
-        <option value="$PROJECT_DIR$/chelper.properties" />
-        <option value="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/SimpleEdge.java" />
-        <option value="$PROJECT_DIR$/lib/main/net/kingder/utils/graph/WeightedEdge.java" />
-        <option value="$PROJECT_DIR$/lib/main/net/egork/io/io/IOUtils.java" />
-        <option value="$PROJECT_DIR$/lib/main/net/egork/utils/io/InputReader.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskA.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskB.java" />
-        <option value="$PROJECT_DIR$/main/my/mypackage/TaskC.java" />
         <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java" />
-        <option value="$PROJECT_DIR$/main/Main.java" />
         <option value="$PROJECT_DIR$/main/my/mypackage/Going_Office.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Insertion_Sort.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Picking_Cards.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/acm.java" />
+        <option value="$PROJECT_DIR$/chelper.properties" />
+        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/io/MyInputReader.java" />
+        <option value="$PROJECT_DIR$/utils/main/net/kingder/utils/io/IOUtils.java" />
+        <option value="$PROJECT_DIR$/main/Main.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Matrix.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Task.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/TwistedGame.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Ants.java" />
+        <option value="$PROJECT_DIR$/main/my/mypackage/Median.java" />
+        <option value="$PROJECT_DIR$/lib/main/net/egork/collections/set/MultiSet.java" />
+        <option value="$PROJECT_DIR$/lib/main/net/egork/misc/MiscUtils.java" />
       </list>
     </option>
   </component>
@@ -204,10 +186,9 @@
     <option name="jreName" value="#JAVA_INTERNAL" />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="-8" />
-    <option name="y" value="-8" />
-    <option name="width" value="1936" />
-    <option name="height" value="1056" />
+    <option name="x" value="960" />
+    <option name="width" value="960" />
+    <option name="height" value="1040" />
   </component>
   <component name="ProjectInspectionProfilesVisibleTreeState">
     <entry key="Project Default">
@@ -300,6 +281,16 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="PackagesPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
       <pane id="Scope">
         <subPane subId="Non-Project Files" />
         <subPane subId="Problems">
@@ -344,7 +335,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
+              <option name="myItemId" value="utils" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -354,11 +345,37 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="main" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="mypackage" />
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="utils" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="Arrays" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -430,7 +447,7 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="graph" />
+              <option name="myItemId" value="io" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -456,14 +473,108 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-        </subPane>
-      </pane>
-      <pane id="PackagesPane">
-        <subPane>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="DailyContest" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PackageViewProjectNode" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="set" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="sequence" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="map" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="DailyContest" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="egork" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="collections" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="iss" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
         </subPane>
@@ -478,16 +589,17 @@
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="MemberChooser.sorted" value="false" />
     <property name="recentsLimit" value="5" />
-    <property name="options.lastSelected" value="project.propVCSSupport.Mappings" />
+    <property name="options.lastSelected" value="editor.preferences.appearance" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/.." />
     <property name="project.structure.side.proportion" value="0.2682081" />
     <property name="MemberChooser.copyJavadoc" value="false" />
     <property name="GoToClass.toSaveIncludeLibraries" value="false" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="MemberChooser.showClasses" value="true" />
     <property name="GoToClass.includeLibraries" value="false" />
-    <property name="options.searchVisible" value="true" />
-    <property name="options.splitter.details.proportions" value="0.2" />
     <property name="dynamic.classpath" value="false" />
+    <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
   </component>
   <component name="RecentsManager">
     <key name="CopyClassDialog.RECENTS_KEY">
@@ -498,7 +610,7 @@
       <recent name="C:\Users\Kingder\Desktop\DailyContest\lib\main\net\egork\utils" />
     </key>
   </component>
-  <component name="RunManager" selected="Task.Going_Office">
+  <component name="RunManager" selected="Task.Median">
     <configuration default="true" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" factoryName="Plugin">
       <module name="" />
       <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m" />
@@ -556,6 +668,24 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="Applet" factoryName="Applet">
+      <module name="" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="HTML_FILE_NAME" />
+      <option name="HTML_USED" value="false" />
+      <option name="WIDTH" value="400" />
+      <option name="HEIGHT" value="300" />
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <option name="VM_PARAMETERS" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="TestNG" factoryName="TestNG">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -582,24 +712,6 @@
       <envs />
       <properties />
       <listeners />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
-    <configuration default="true" type="Applet" factoryName="Applet">
-      <module name="" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="HTML_FILE_NAME" />
-      <option name="HTML_USED" value="false" />
-      <option name="WIDTH" value="400" />
-      <option name="HEIGHT" value="300" />
-      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
-      <option name="VM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
       <method>
         <option name="AntTarget" enabled="false" />
         <option name="BuildArtifacts" enabled="false" />
@@ -636,6 +748,15 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
+    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
+      <module name="" />
+      <method>
+        <option name="AntTarget" enabled="false" />
+        <option name="BuildArtifacts" enabled="false" />
+        <option name="Make" enabled="true" />
+        <option name="Maven.BeforeRunTask" enabled="false" />
+      </method>
+    </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="" />
@@ -662,15 +783,6 @@
         <option name="Maven.BeforeRunTask" enabled="false" />
       </method>
     </configuration>
-    <configuration default="true" type="GWT.ConfigurationType" factoryName="GWT Configuration">
-      <module name="" />
-      <method>
-        <option name="AntTarget" enabled="false" />
-        <option name="BuildArtifacts" enabled="false" />
-        <option name="Make" enabled="true" />
-        <option name="Maven.BeforeRunTask" enabled="false" />
-      </method>
-    </configuration>
     <configuration default="true" type="com.intellij.persistence.run.ConsoleRunConfigurationType" factoryName="Query Language Console">
       <option name="VM_PARAMETERS" value="" />
       <option name="USER_CFG_CLASS" />
@@ -683,7 +795,7 @@
       </method>
     </configuration>
     <configuration default="false" name="acm" type="Task" factoryName="Task">
-      <taskConf>acm::/src/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::999999999 10000000000000;;;;true</taskConf>
+      <taskConf>acm::/src/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::4/__720000 120000/__50000 60000/__130000 50000/__1200000 150000/__3/__5000000 7/__5000000 30/__63000000 24;;Case 1/: 120000/__Case 2/: 110000/__Case 3/: IMPOSSIBLE;;true</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
@@ -700,24 +812,29 @@
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <configuration default="false" name="Task" type="Task" factoryName="Task">
-      <taskConf>Task::/main/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::empty</taskConf>
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
-      <method />
-    </configuration>
     <configuration default="false" name="Going_Office" type="Task" factoryName="Task">
       <taskConf>Going_Office::/main/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::6 9/__0 1 1/__1 2 1/__2 3 1/__3 4 1/__4 5 1/__2 4 5/__3 5 8/__1 3 3/__0 2 4/__0 5/__9/__0 1/__1 2/__2 3/__3 4/__4 5/__2 4/__3 5/__1 3/__0 2;;7/__6/__6/__8/__11/__5/__5/__5/__5;;true</taskConf>
       <RunnerSettings RunnerId="Run" />
       <ConfigurationWrapper RunnerId="Run" />
       <method />
     </configuration>
-    <list size="5">
+    <configuration default="false" name="Insertion_Sort" type="Task" factoryName="Task">
+      <taskConf>Insertion_Sort::/main/my/mypackage::MULTI_NUMBER::STANDARD::::STANDARD::::256M::64M::true::3/__5/__1 1 1 2 2/__5/__2 1 3 1 2/__5/__4 3 2 1 0;;0/__4;;true</taskConf>
+      <RunnerSettings RunnerId="Run" />
+      <ConfigurationWrapper RunnerId="Run" />
+      <method />
+    </configuration>
+    <configuration default="false" name="Median" type="Task" factoryName="Task">
+      <taskConf>Median::/main/my/mypackage::SINGLE::STANDARD::::STANDARD::::256M::64M::true::empty</taskConf>
+      <method />
+    </configuration>
+    <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Task.acm" />
       <item index="1" class="java.lang.String" itemvalue="Task.Connect_the_country" />
       <item index="2" class="java.lang.String" itemvalue="TopCoder Task.ImportantSequence" />
-      <item index="3" class="java.lang.String" itemvalue="Task.Task" />
-      <item index="4" class="java.lang.String" itemvalue="Task.Going_Office" />
+      <item index="3" class="java.lang.String" itemvalue="Task.Going_Office" />
+      <item index="4" class="java.lang.String" itemvalue="Task.Insertion_Sort" />
+      <item index="5" class="java.lang.String" itemvalue="Task.Median" />
     </list>
     <configuration name="&lt;template&gt;" type="WebApp" default="true" selected="false">
       <Host>localhost</Host>
@@ -725,6 +842,11 @@
     </configuration>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SliceManager">
+    <option name="analysisUIOptions">
+      <AnalysisUIOptions />
+    </option>
+  </component>
   <component name="StructureViewFactory">
     <option name="ACTIVE_ACTIONS" value="SHOW_PROPERTIES,SHOW_ANONYMOUS" />
   </component>
@@ -784,7 +906,11 @@
       <created>1334318972411</created>
       <updated>1334318972411</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="regular commit.">
+      <created>1334324714608</created>
+      <updated>1334324714608</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TodoView" selected-index="0">
@@ -808,33 +934,33 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="0" />
+    <frame x="960" y="0" width="960" height="1040" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Data Sources" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35538116" sideWeight="0.0" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3454759" sideWeight="0.3206704" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="JetGradle" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.66775244" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.43161434" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="IDEtalk Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.5560538" sideWeight="0.5066809" order="8" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3454759" sideWeight="0.6715084" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="IDEtalk" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295964" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.37331837" sideWeight="0.48415923" order="10" side_tool="false" content_ui="tabs" x="10" y="383" width="1231" height="127" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.15246637" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.18278995" sideWeight="0.23542601" order="1" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32981315" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.39886272" sideWeight="0.60749185" order="0" side_tool="false" content_ui="tabs" x="568" y="70" width="492" height="614" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.18278995" sideWeight="0.44394618" order="0" side_tool="false" content_ui="combo" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="true" weight="0.29372197" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" x="639" y="253" width="1231" height="532" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.3698324" sideWeight="0.6545241" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4473094" sideWeight="0.496875" order="2" side_tool="false" content_ui="tabs" x="639" y="253" width="1231" height="532" />
       <window_info id="JavaEE:App" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24010554" sideWeight="0.64983714" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24939074" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Thumbnails" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.35993487" sideWeight="0.4939074" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.2980456" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="true" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.37331837" sideWeight="0.48415923" order="10" side_tool="false" content_ui="tabs" x="10" y="383" width="1231" height="127" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3990228" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
     </layout>
   </component>
@@ -875,7 +1001,7 @@
     <option name="SHOW_VCS_ERROR_NOTIFICATIONS" value="true" />
     <option name="FORCE_NON_EMPTY_COMMENT" value="false" />
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="false" />
-    <option name="LAST_COMMIT_MESSAGE" value="done." />
+    <option name="LAST_COMMIT_MESSAGE" value="regular commit." />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
     <option name="OPTIMIZE_IMPORTS_BEFORE_PROJECT_COMMIT" value="true" />
     <option name="CHECK_FILES_UP_TO_DATE_BEFORE_COMMIT" value="false" />
@@ -891,6 +1017,7 @@
     <MESSAGE value="modify the project!" />
     <MESSAGE value="add egor lib." />
     <MESSAGE value="done." />
+    <MESSAGE value="regular commit." />
   </component>
   <component name="VssConfiguration">
     <option name="CLIENT_PATH" value="" />
@@ -956,126 +1083,85 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentSet.java">
+    <entry file="file://$PROJECT_DIR$/main/my/mypackage/ImportantSequence.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentTreapSet.java">
+    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Median.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
+        <state line="13" column="0" selection-start="310" selection-end="310" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.7.0_02/src.zip!/java/util/NavigableSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="85" column="17" selection-start="2806" selection-end="2806" vertical-scroll-proportion="-6.247803" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/TreapSet.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="127" selection-end="127" vertical-scroll-proportion="0.0">
+        <state line="23" column="76" selection-start="619" selection-end="619" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentTreapSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="184" selection-end="184" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/PersistentSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="7" column="17" selection-start="142" selection-end="142" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/set/MultiSet.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="104" column="37" selection-start="1758" selection-end="1758" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/misc/Factory.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="99" selection-end="99" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/misc/MiscUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="121" column="57" selection-start="3605" selection-end="3605" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/sequence/Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="22" selection-start="175" selection-end="175" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/sequence/ListUtils.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="16" column="13" selection-start="454" selection-end="454" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/sequence/StringWrapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="8" column="13" selection-start="166" selection-end="166" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPTreeMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="58" selection-start="34" selection-end="34" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/map/CPPMap.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="13" selection-start="165" selection-end="165" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/iss/IndependentSetSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="17" selection-start="110" selection-end="110" vertical-scroll-proportion="0.0" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/iss/ListIndependentSetSystem.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="36" column="12" selection-start="949" selection-end="949" vertical-scroll-proportion="0.29327902">
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/ArrayUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/ReadOnlyIterator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="22" selection-start="139" selection-end="139" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/ReverseComparator.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="7" column="13" selection-start="132" selection-end="132" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/Graph.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="13" selection-start="148" selection-end="148" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/GraphUtils.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="88" selection-end="88" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/WeightedFlowEdge.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="13" selection-start="96" selection-end="96" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/chelper.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="8" column="34" selection-start="303" selection-end="303" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Task.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="13" selection-start="155" selection-end="155" vertical-scroll-proportion="0.0">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/collections/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="50" column="64" selection-start="1108" selection-end="1251" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1035#1067#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/utils/main/net/kingder/utils/common/Pair.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="52" column="59" selection-start="1500" selection-end="1500" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#1254#1286#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/lib/main/net/egork/graph/GraphAlgorithms.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="187" column="24" selection-start="5183" selection-end="6099" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="e#5389#5410#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="307" column="4" selection-start="10158" selection-end="10158" vertical-scroll-proportion="0.0">
-          <folding>
-            <element signature="imports" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/main/my/mypackage/Going_Office.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="43" selection-start="4164" selection-end="4164" vertical-scroll-proportion="0.3893395">
-          <folding>
-            <element signature="e#3253#3277#0" expanded="true" />
-            <element signature="e#5754#5778#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>

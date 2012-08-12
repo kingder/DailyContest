@@ -1,13 +1,13 @@
 package my.mypackage;
 
+import net.kingder.utils.io.MyInputReader;
 import net.egork.chelper.task.Test;
 import net.egork.chelper.tester.Verdict;
-import net.kingder.utils.io.MyInputReader;
 
 import java.util.Collection;
 import java.util.Collections;
 
-public class TaskChecker {
+public class AntsChecker {
 	public Verdict check(MyInputReader input, MyInputReader expected, MyInputReader actual) {
 		return Verdict.UNDECIDED;
 	}
