@@ -1,8 +1,4 @@
-/*
- * Copyright (c) 2012.
- */
-
-package my;
+package my.mypackage;
 
 import net.kingder.utils.io.MyInputReader;
 import net.egork.chelper.task.Test;
@@ -11,7 +7,7 @@ import net.egork.chelper.tester.Verdict;
 import java.util.Collection;
 import java.util.Collections;
 
-public class C_Recycled_NumbersChecker {
+public class Insertion_SortChecker {
 	public Verdict check(MyInputReader input, MyInputReader expected, MyInputReader actual) {
 		return Verdict.UNDECIDED;
 	}
