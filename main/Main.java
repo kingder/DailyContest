@@ -1,13 +1,10 @@
-import java.util.List;
 import java.io.IOException;
 import java.util.Arrays;
 import java.util.InputMismatchException;
-import java.util.ArrayList;
 import java.io.OutputStream;
 import java.io.PrintWriter;
 import java.io.Writer;
 import java.math.BigInteger;
-import java.util.Collections;
 import java.io.InputStream;
 
 /**
@@ -21,63 +18,37 @@ public class Main {
 		OutputStream outputStream = System.out;
 		MyInputReader in = new MyInputReader(inputStream);
 		MyOutputWriter out = new MyOutputWriter(outputStream);
-		Ants solver = new Ants();
+		TaskA solver = new TaskA();
 		solver.solve(1, in, out);
 		out.close();
 	}
 }
 
-class Ants {
-    static int MAXDIS = 10000 ;
-    static int MAXTIME = 1000000006;
-    public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
-        int n = in.nextInt() ;
-        int[] dis = new int[n] ;
-        int[] dir = new int[n] ;
-        for( int i = 0 ; i < n ; i ++ ) dis[i] = in.nextInt() * 10 ;
-        Arrays.sort(dis);
+class TaskA {
+	public void solve(int testNumber, MyInputReader in, MyOutputWriter out) {
+		int n = in.nextInt();
+		int[] a = new int[n];
+		for(int i = 0; i < n; i++)
+			a[i] = in.nextInt();
 
-        long tot = 0 ;
-        for( int i = 0 ; i < n ; i ++ )for( int d = -1 ; d <= 1 ; d ++ )if(d!=0){ // 1 clockwise, -1 counterclockwise
-            dir[i] = d ;
-            for( int j = 0 ; j < n-1 ; j ++ ){
-                dir[(i+j+1)%n] = dir[(i+j)%n] * -1 ;
-            }
-            tot = Math.max( tot , go(  n , dir , dis ) );
-        }
-        out.printLine(tot);
+		boolean[] is = new boolean[1<<20];
+		Arrays.fill(is, false);
+
+		for(int i = 0; i < n; i++) {
+			is[a[i]] = true;
+			int tp = 0;
+			for(int j = i + 1; j < n; j++) {
+				tp |= a[j];
+				is[tp | a[i]] = true;
+				if((tp & a[i]) == a[i]) break;
+			}
+		}
+
+		int ret = 0;
+		for(int i = 0 ; i < (1<<20); i++)
+			ret += is[i] ? 1 : 0;
+		out.printLine(ret);
 	}
-
-    private long go(int n, int[] dir, int[] dis) {
-        long ret = 0 ;
-        ArrayList<Integer> time = new ArrayList<Integer>();
-        for( int i = 0 ; i < n ; i ++ ){
-             for( int j = 0 ; j < n ; j ++ )if( dir[j] != dir[i] ) {
-                 if( dis[i] < dis[j] ){
-                     if( dir[i] == 1 ){
-                         time.add( (dis[j] - dis[i]) / 2 );
-                         time.add( (dis[j] - dis[i] + MAXDIS) / 2);
-                     }else{
-                         time.add( (MAXDIS - (dis[j] - dis[i]) ) / 2 );
-                         time.add( MAXDIS - (dis[j] - dis[i]) / 2);
-                     }
-                 }else{
-                     if( dir[i] == 1){
-                         time.add( (MAXDIS - (dis[i] - dis[j]) ) / 2 );
-                         time.add( MAXDIS - (dis[i] - dis[j]) / 2);
-                     }else{
-                         time.add( (dis[i] - dis[j]) / 2 );
-                         time.add( (dis[i] - dis[j] + MAXDIS) / 2);
-                     }
-                 }
-             }
-        }
-        Collections.sort( time );
-        ret += MAXTIME / MAXDIS * time.size();
-
-        for( int i = 0 ; i < time.size() ; i ++ ) if( time.get(i) <= MAXTIME % MAXDIS ) ret ++ ;
-        return ret;
-    }
 }
 
 class MyInputReader {
@@ -107,9 +78,6 @@ class MyInputReader {
         return buf[curChar++];
     }
 
-    public int nextInt(){
-        return readInt();
-    }
     public int readInt() {
         int c = read();
         while (isSpaceChar(c))
@@ -128,6 +96,9 @@ class MyInputReader {
             c = read();
         } while (!isSpaceChar(c));
         return res * sgn;
+    }
+    public int nextInt(){
+        return readInt() ;
     }
 
     public static boolean isSpaceChar(int c) {
