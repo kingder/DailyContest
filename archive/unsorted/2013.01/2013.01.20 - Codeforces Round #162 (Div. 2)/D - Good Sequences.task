@@ -1,4 +1,4 @@
-10 E - Matrix
+18 D - Good Sequences
 6 SINGLE
 8 STANDARD
 -1
@@ -6,41 +6,28 @@
 -1
 2
 0
-44 6
-100010
-110110
-011001
-010010
-000100
-011001
+12 5
+2 3 4 6 9
 
-46 YES
-011000
-111100
-000111
-001100
-100000
-000111
+2 4
 
 1
 1
-14 3
-110
-101
-011
+21 9
+1 2 3 5 6 7 8 9 10
 
-3 NO
+2 4
 
 1
 7 main/my
 8 -Xmx256M
 4 Main
-8 my.TaskE
+8 my.TaskD
 39 net.egork.chelper.checkers.TokenChecker
 0 
 0
-10 2012.11.18
-30 Codeforces Round #150 (Div. 1)
+10 2013.01.20
+30 Codeforces Round #162 (Div. 2)
 1
 34 net.kingder.utils.io.MyInputReader
 35 net.kingder.utils.io.MyOutputWriter
