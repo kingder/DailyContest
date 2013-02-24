@@ -1,56 +1,46 @@
-9 B - Hydra
+23 A - Maxim and Discounts
 6 SINGLE
 8 STANDARD
 -1
 8 STANDARD
 -1
-2
+3
 0
-57 9 12 2 3
-1 2
-2 3
-1 3
-1 4
-2 5
-4 5
-4 6
-6 5
-6 7
-7 5
-8 7
-9 1
+20 1
+2
+4
+50 50 100 100
 
-20 YES
-4 1
-5 6 
-9 3 2 
+4 200
 
 1
 1
-49 7 10 3 3
-1 2
+23 2
 2 3
-1 3
-1 4
-2 5
-4 5
-4 6
-6 5
-6 7
-7 5
+5
+50 50 50 50 50
 
-3 NO
+4 150
+
+1
+2
+20 1
+1
+7
+1 1 1 1 1 1 1
+
+2 3
 
 1
 7 main/my
 8 -Xmx256M
 4 Main
-8 my.TaskB
+8 my.TaskA
 39 net.egork.chelper.checkers.TokenChecker
 0 
 0
-10 2012.11.18
-30 Codeforces Round #150 (Div. 1)
+10 2013.01.14
+30 Codeforces Round #160 (Div. 1)
 1
 34 net.kingder.utils.io.MyInputReader
 35 net.kingder.utils.io.MyOutputWriter
