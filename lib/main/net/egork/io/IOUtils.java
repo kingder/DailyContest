@@ -144,4 +144,5 @@ public class IOUtils {
 		for (char[] row : table)
 			out.printLine(new String(row));
 	}
+
 }

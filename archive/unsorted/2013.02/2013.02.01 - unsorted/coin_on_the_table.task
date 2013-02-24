@@ -1,0 +1,33 @@
+17 coin_on_the_table
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+2
+0
+11 2 2 3
+RD
+*L
+1 0
+1
+1
+11 2 2 1
+RD
+*L
+1 1
+1
+7 main/my
+16 -Xmx256m -Xss64m
+4 Main
+20 my.coin_on_the_table
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.02.01
+0 
+1
+34 net.kingder.utils.io.MyInputReader
+35 net.kingder.utils.io.MyOutputWriter
+0
+0
