@@ -1,0 +1,38 @@
+8 ms46_one
+12 MULTI_NUMBER
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+149 2
+4 3
+ship sheep
+sinking thinking
+thinking sinking
+the ship is sinking
+10 5
+tidy tiny
+tiger liar
+tired tire
+tire bear
+liar bear
+a tidy tiger is tired
+59 Case #1: the sheep is thinking
+Case #2: a tiny bear is bear
+1
+7 main/my
+16 -Xmx256m -Xss64m
+4 Main
+11 my.ms46_one
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.04.06
+0 
+1
+34 net.kingder.utils.io.MyInputReader
+35 net.kingder.utils.io.MyOutputWriter
+0
+0
