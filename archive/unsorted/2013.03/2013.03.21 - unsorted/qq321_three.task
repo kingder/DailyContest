@@ -1,0 +1,38 @@
+11 qq321_three
+9 MULTI_EOF
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+1
+0
+41 3
+3 3
+7 7
+9 9
+10
+5
+1 1
+5 3
+10 3
+6 8
+7 5
+6
+6 10
+20
+
+1
+7 main/my
+16 -Xmx256m -Xss64m
+4 Main
+14 my.qq321_three
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.03.21
+0 
+1
+34 net.kingder.utils.io.MyInputReader
+35 net.kingder.utils.io.MyOutputWriter
+0
+1

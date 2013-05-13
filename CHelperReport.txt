@@ -1,2 +1,3 @@
-36 main/my/A - k-Multiple Free Set.task
+14 main/my/A.task
+1
 0

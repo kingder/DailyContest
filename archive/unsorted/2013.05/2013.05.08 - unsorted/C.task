@@ -1,0 +1,54 @@
+1 C
+6 SINGLE
+8 STANDARD
+9 input.txt
+8 STANDARD
+10 output.txt
+5
+0
+28 5
+0  1
+0  5
+7  10
+8  12
+1  3
+1 5
+1
+1
+5 1
+0 0
+1 0
+1
+2
+9 2
+1 2
+4 6
+1 2
+1
+3
+13 3
+1 5
+6 7
+8 9
+1 8
+1
+4
+11 2
+1 2
+9 100
+0 
+1
+7 main/my
+16 -Xmx256m -Xss64m
+4 Main
+4 my.C
+39 net.egork.chelper.checkers.TokenChecker
+0 
+0
+10 2013.05.08
+0 
+1
+34 net.kingder.utils.io.MyInputReader
+35 net.kingder.utils.io.MyOutputWriter
+0
+1
